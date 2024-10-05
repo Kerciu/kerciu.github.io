@@ -24,3 +24,49 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect {
+    padding: 25px 75px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #BB86FC 0.36%, #03DAC5 102.06%);
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid transparent;
+    background-size: 200%;
+}
+
+.hero-resume {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero-connect:hover {
+    transform: scale(1.05);
+    background: linear-gradient(267deg, #03DAC5 0.36%, #BB86FC 102.06%);
+    border-color: white;
+    background-position: right;
+}
+
+.hero-resume:hover {
+    transform: scale(1.05);
+    border-color: #BB86FC;
+}
