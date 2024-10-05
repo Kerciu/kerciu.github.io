@@ -19,4 +19,9 @@
     background: linear-gradient(267deg, #BB86FC 0.36%, #03DAC5 102.06%);
     font-size: 22px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
 }
