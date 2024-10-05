@@ -10,7 +10,24 @@
     align-items: center;
     list-style: none;
     gap: 60px;
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(267deg, #BB86FC 0.36%, #03DAC5 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    transition: color 0.5s ease, -webkit-text-fill-color 0.5s ease, background-position 0.5s ease, transform 0.5s ease;
+}
+
+.nav-menu li:hover {
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-position: right;
+    transform: scale(1.05);
 }
 
 .nav-connect {

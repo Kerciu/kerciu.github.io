@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero">
             <img src={profileImg} alt="My image" />
             <h1><span> I'm Kacper Górski</span>, Software Engineer based in Poland.</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, reprehenderit?</p>
+            <p>I am a Software Engineer based in Warsaw, Poland, currently pursuing a Bachelor's degree in Computer Science at the Warsaw University of Technology.</p>
             <div className="hero-action">
                 <div className="hero-connect">Connect</div>
                 <div className="hero-resume">Resume</div>
