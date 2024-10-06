@@ -19,7 +19,7 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-paragraph">
                         {Object.values(aboutInfo).map((para, idx) => (
-                            <p key={idx}>{para}</p>
+                            <p key={idx} dangerouslySetInnerHTML={{__html: para}} />
                         ))}
                     </div>
                 </div>
