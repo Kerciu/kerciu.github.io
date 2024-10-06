@@ -20,7 +20,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: white;
-    transition: color 0.5s ease, -webkit-text-fill-color 0.5s ease, background-position 0.5s ease, transform 0.5s ease;
+    transition: color 1s ease, -webkit-text-fill-color 1s ease, background-position 0.5s ease, transform 0.5s ease;
 }
 
 .nav-menu li:hover {
@@ -38,7 +38,6 @@
     cursor: pointer;
     transition: 0.5s ease;
     border: 2px solid transparent;
-    background-size: 200%;
 }
 
 .nav-connect:hover {

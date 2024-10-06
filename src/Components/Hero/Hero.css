@@ -48,7 +48,6 @@
     cursor: pointer;
     transition: 0.5s;
     border: 2px solid transparent;
-    background-size: 200%;
 }
 
 .hero-resume {
