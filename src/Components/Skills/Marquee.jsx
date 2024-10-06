@@ -12,7 +12,7 @@ const Marquee = () => {
         <div className="marquee-container"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}>
-            <div className={`marquee-content ${isPaused ? 'paused' : ''}`}>
+            <div aria-hidden="true" className={`marquee-content ${isPaused ? 'paused' : ''}`}>
                 {marqueeCards.map(item => (
                     <div key={item.id} className="item">
                         <img src={item.iconPath} alt={item.label} />
