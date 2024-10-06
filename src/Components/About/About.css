@@ -1,8 +1,8 @@
 .about-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 50px;
+    align-items: center;
+    gap: 80px;
     margin: 80px 170px;
 }
 
@@ -25,11 +25,19 @@
     max-width: 1200px;
 }
 
+.about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
 
 .about-left > img {
-    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .about-paragraph p {
     margin: 30px 0;
+    font-size: 20px;
 }

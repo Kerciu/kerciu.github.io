@@ -2,6 +2,7 @@ import React from "react";
 import './About.css';
 
 import profileImage from '../../assets/my-image.jpg'
+import aboutInfo from "../../assets/info/aboutInfo";
 
 const About = () => {
     return (
@@ -15,8 +16,9 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-paragraph">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odio culpa nobis dolore, alias pariatur?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci commodi in! Ab assumenda, molestiae aperiam earum dolorem atque quo.</p>
+                        {Object.values(aboutInfo).map((para, idx) => (
+                            <p key={idx}>{para}</p>
+                        ))}
                     </div>
                 </div>
             </div>
