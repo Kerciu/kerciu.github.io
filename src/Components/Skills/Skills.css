@@ -4,8 +4,6 @@
     align-items: center;
     gap: 80px;
     margin: 80px 170px;
-    background-color: #161513;
-    border-radius: 10px;
 }
 
 .skills-title {
@@ -17,6 +15,13 @@
     text-align: center;
     font-size: 80px;
     font-weight: 600;
+}
+
+.skills-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .skills {

@@ -17,6 +17,13 @@
     font-weight: 600;
 }
 
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
 .about {
     display: flex;
     align-items: center;
