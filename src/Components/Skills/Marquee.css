@@ -11,7 +11,7 @@
 .marquee-content {
     display: flex;
     gap: 60px;
-    animation: marquee 25s linear infinite;
+    animation: marquee 35s linear infinite;
     transition: transform 0.5s ease;
     white-space: nowrap;
 }
@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: center;
     min-width: 150px;
-    width: 100%;
+    width: 150px;
     transition: transform 0.5s;
     cursor: pointer;
     border: 1px solid #BB86FC;
@@ -57,6 +57,6 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }

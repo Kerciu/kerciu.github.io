@@ -1,6 +1,8 @@
 import React from "react";
 import Marquee from "./Marquee";
 
+import './Skills.css';
+
 const Skills = () => {
     return (
         <div className="skills-container">
