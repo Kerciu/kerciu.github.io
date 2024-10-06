@@ -1,5 +1,7 @@
 import React from "react";
 
+import './Marquee.css';
+
 import marqueeCards from "../../assets/info/marqueeCards";
 
 const Marquee = () => {

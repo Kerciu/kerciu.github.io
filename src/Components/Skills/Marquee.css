@@ -1,0 +1,43 @@
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: transform 0.5s;
+    cursor: pointer;
+    border: 2px solid #1f223c;
+    background-color: 11152c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item:hover {
+    transform: scale(1.15);
+}
+
+.item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.label {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
