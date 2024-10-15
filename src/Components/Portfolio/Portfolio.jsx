@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <p>{project.pDesc}</p>
                         <div className="project-srccode">
                             <p>Source Code</p>
-                            <img src={arrowIcon} alt="Arrow Icon" />
+                            <a href={project.pLink} target="_blank"><img src={arrowIcon} alt="Arrow Icon" /></a>
                         </div>
                     </div>
                 })}
