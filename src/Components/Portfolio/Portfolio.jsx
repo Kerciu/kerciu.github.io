@@ -3,6 +3,7 @@ import './Portfolio.css';
 
 import themePattern from "../../assets/theme_pattern.svg";
 import projectInfo from "../../assets/info/projectInfo";
+import arrowIcon from "../../assets/arrow_icon.svg";
 
 const Portfolio = () => {
     return (
@@ -12,8 +13,16 @@ const Portfolio = () => {
                 <img src={themePattern} alt="Theme Pattern" />
             </div>
             <div className="portfolio">
-                {Object.values().map((card, idx) => {
-
+                {projectInfo.map((project, idx) => {
+                    return <div key={idx} className="project-format">
+                        <h3>{project.pNum}</h3>
+                        <h2>{project.pName}</h2>
+                        <p>{project.pDesc}</p>
+                        <div className="project-srccode">
+                            <p>Source Code</p>
+                            <img src={arrowIcon} alt="Arrow Icon" />
+                        </div>
+                    </div>
                 })}
             </div>
         </div>
