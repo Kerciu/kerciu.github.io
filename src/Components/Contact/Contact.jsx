@@ -32,6 +32,20 @@ const Contact = () => {
                         <p>{contactInfo.call}</p>
                     </div>
                 </div>
+                <form className="contact-right">
+                    <label htmlFor="">Your Name</label>
+                    <input type="text" placeholder="Enter your name.." name="name"/>
+
+                    <label htmlFor="">Your Name</label>
+                    <input type="email" placeholder="Enter your email.." name="email"/>
+
+                    <label htmlFor="">Your Message</label>
+                    <textarea name="message" rows={8} placeholder="Enter your message.."></textarea>
+
+                    <button type="submit" className="contact-submit">
+                        Submit now!
+                    </button>
+                </form>
             </div>
         </div>
     )
