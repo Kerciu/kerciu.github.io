@@ -66,3 +66,60 @@
     align-items: center;
     gap: 20px;
 }
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.contact-right label {
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contact-right input {
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+
+.contact-right textarea {
+    width: 670px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+
+.contact-submit {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #BB86FC 0.36%, #03DAC5 102.06%);
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.contact-submit:hover {
+    transform: scale(1.05);
+    background: linear-gradient(267deg, #03DAC5 0.36%, #BB86FC 102.06%);
+    border-color: white;
+    background-position: right;
+}
