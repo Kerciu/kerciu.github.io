@@ -19,17 +19,19 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1>Let's get in touch</h1>
                     <p>{contactInfo.contactDesc}</p>
-                    <div className="contact-detail">
-                        <img src={locationIcon} alt="Location Icon" />
-                        <p>{contactInfo.location}</p>
-                    </div>
-                    <div className="contact-detail">
-                        <img src={mailIcon} alt="Mail Icon" />
-                        <p>{contactInfo.mail}</p>
-                    </div>
-                    <div className="contact-detail">
-                        <img src={callIcon} alt="Call Icon" />
-                        <p>{contactInfo.call}</p>
+                    <div className="contact-details">
+                        <div className="contact-detail">
+                            <img src={locationIcon} alt="Location Icon" />
+                            <p>{contactInfo.location}</p>
+                        </div>
+                        <div className="contact-detail">
+                            <img src={mailIcon} alt="Mail Icon" />
+                            <p>{contactInfo.mail}</p>
+                        </div>
+                        <div className="contact-detail">
+                            <img src={callIcon} alt="Call Icon" />
+                            <p>{contactInfo.call}</p>
+                        </div>
                     </div>
                 </div>
                 <form className="contact-right">
