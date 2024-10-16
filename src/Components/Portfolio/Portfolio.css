@@ -41,7 +41,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    margin-bottom: 80px;
 }
 
 .project-format h3 {
@@ -64,7 +63,7 @@
     max-width: 300px;
 }
 
-.project-srccode {
+.project-btn {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -76,4 +75,19 @@
     background-image: linear-gradient(267deg, #352649 0.36%, #004e46 102.06%);
     transform: scale(1.05);
     transition: 0.4s;
+}
+
+.show-more-btn {
+    border: 2px solid white;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 40px;
+    padding: 20px 50px;
+    margin-bottom: 80px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.show-more-btn:hover {
+    transform: scale(1.05);
 }
