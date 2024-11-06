@@ -9,7 +9,7 @@ const Portfolio = () => {
     const githubUrl = "https://github.com/Kerciu";
 
     return (
-        <div className="portfolio-container">
+        <div id="portfolio" className="portfolio-container">
             <div className="portfolio-title">
                 <h1>Portfolio</h1>
                 <img src={themePattern} alt="Theme Pattern" />

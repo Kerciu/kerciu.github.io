@@ -10,7 +10,7 @@ import contactInfo from "../../assets/info/contactInfo";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="contact-title">
                 <h1>Contact</h1>
                 <img src={themePattern} alt="Theme Pattern" />

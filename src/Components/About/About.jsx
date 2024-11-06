@@ -7,7 +7,7 @@ import themePattern from "../../assets/theme_pattern.svg";
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div id="about" className="about-container">
             <div className="about-title">
                 <h1>About me</h1>
                 <img src={themePattern} alt="Theme Pattern" />

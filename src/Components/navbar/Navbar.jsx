@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 import './Navbar.css';
 
 import themePattern from "../../assets/theme_pattern.svg";
@@ -10,11 +11,21 @@ const Navbar = () => {
             <img src={themePattern} alt="Theme Pattern" />
         </div>
         <ul className="nav-menu">
-            <li>Home</li>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li>
+                <Link to="home" smooth={true} duration={500}>Home</Link>
+            </li>
+            <li>
+                <Link to="about" smooth={true} duration={500}>About Me</Link>
+            </li>
+            <li>
+                <Link to="skills" smooth={true} duration={500}>Skills</Link>
+            </li>
+            <li>
+                <Link to="portfolio" smooth={true} duration={500}>Portfolio</Link>
+            </li>
+            <li>
+                <Link to="contact" smooth={true} duration={500}>Contact</Link>
+            </li>
         </ul>
         <div className="nav-connect">
             Connect With Me
