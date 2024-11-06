@@ -123,3 +123,37 @@
     border-color: white;
     background-position: right;
 }
+
+.submit-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-submit {
+    background-color: #4CAF50;
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recaptcha-submit {
+    margin-bottom: 20px;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4CAF50;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
