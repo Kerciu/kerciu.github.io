@@ -1,4 +1,5 @@
 import React from "react";
+import { Link }from "react-scroll";
 import './Hero.css';
 
 import profileImg from '../../assets/my-image.jpg';
