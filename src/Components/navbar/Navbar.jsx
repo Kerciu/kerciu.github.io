@@ -27,8 +27,8 @@ const Navbar = () => {
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
             </li>
         </ul>
-        <div className="nav-connect">
-            Connect With Me
+        <div className="nav-connect"> 
+            <Link to="contact" smooth={true} duration={500}>Connect With Me</Link>
         </div>
     </div>
 };
