@@ -3,6 +3,7 @@ import { Link }from "react-scroll";
 import './Hero.css';
 
 import profileImg from '../../assets/my-image.jpg';
+import resume from "../../assets/files/resume.pdf";
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
                 <div className="hero-connect">
                     <Link to="contact" smooth={true} duration={500}>Connect With Me</Link>
                 </div>
-                <div className="hero-resume">Resume</div>
+                <div className="hero-resume"><a href={resume} download={true}>Resume</a></div>
             </div>
         </div>
     )
