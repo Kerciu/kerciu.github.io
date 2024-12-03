@@ -1,5 +1,5 @@
 const contactInfo = {
-    contactDesc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quod quo aperiam error nulla adipisci asperiores. Nemo rerum impedit voluptates.",
+    contactDesc: "Looking forward to collaborating with you or answering any questions you may have. Feel free to contact me!",
     location: "Warsaw, Poland",
     mail: "kacper.gorski.contact@gmail.com",
     call: "+48 213 769 420"

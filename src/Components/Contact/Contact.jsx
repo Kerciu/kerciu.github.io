@@ -1,5 +1,4 @@
-import React, { useState, useRef } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
+import React, { useState } from "react";
 import './Contact.css';
 
 import themePattern from "../../assets/theme_pattern.svg";
@@ -13,23 +12,15 @@ const Contact = () => {
 
     const [result, setResult] = useState("");
     const [isLoading, setLoading] = useState(false);
-    const recaptchaRef = useRef(null);
 
     const onSubmit = async (event) => {
         event.preventDefault();
-
-        const captchaValue = recaptchaRef.current.getValue();
-        if (!captchaValue) {
-            setResult("Please complete the CAPTCHA.");
-            return;
-        }
 
         setLoading(true);
         setResult("Sending...");
         const formData = new FormData(event.target);
 
         formData.append("access_key", "bf1f07e5-fce3-4257-a8c9-93fcb0bab28f"); // static page, no backend so hardcoded
-        formData.append("g-recaptcha-response", captchaValue);
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
@@ -42,7 +33,6 @@ const Contact = () => {
             if (data.success) {
                 setResult("Form submitted successfully!");
                 event.target.reset();
-                recaptchaRef.current.reset();
             } else {
                 console.log("Error: ", data);
                 setResult(data.message);
@@ -84,7 +74,7 @@ const Contact = () => {
                     <label htmlFor="">Your Name</label>
                     <input type="text" placeholder="Enter your name.." name="name" required/>
 
-                    <label htmlFor="">Your Name</label>
+                    <label htmlFor="">Your Email</label>
                     <input type="email" placeholder="Enter your email.." name="email" required/>
 
                     <label htmlFor="">Your Message</label>
@@ -92,12 +82,6 @@ const Contact = () => {
 
                     <div className="submit-container">
                         <button type="submit" className="contact-submit">Submit now</button>
-                        <ReCAPTCHA
-                            className="recaptcha-submit"
-                            ref={recaptchaRef}
-                            sitekey="6LewDXcqAAAAAHhB8q_Sc6rw31315THMuhwIxadJ"
-                            theme="dark"
-                        />
                     </div>
                     {isLoading && <div className="spinner"></div>}
                     <p>{result}</p>
