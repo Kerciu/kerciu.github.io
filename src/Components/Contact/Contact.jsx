@@ -84,7 +84,6 @@ const Contact = () => {
                         <button type="submit" className="contact-submit">Submit now</button>
                     </div>
                     {isLoading && <div className="spinner"></div>}
-                    <p>{result}</p>
                 </form>
             </div>
             {result && <p>{result}</p>}
