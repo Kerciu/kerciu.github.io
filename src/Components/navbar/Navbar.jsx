@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-scroll";
 import './Navbar.css';
 
@@ -8,15 +8,24 @@ import menuClose from "../../assets/menu_close.svg";
 
 const Navbar = () => {
 
+    const menuRef = useRef();
+
+    const openMenu = () => {
+        menuRef.current.style.right="0";
+    }
+
+    const closeMenu = () => {
+        menuRef.current.style.right="-350px";
+    }
 
     return <div className="navbar">
         <div className="nav-logo">
             <div className="nav-logo-name">Kacper</div>
             <img src={themePattern} alt="Theme Pattern" />
         </div>
-        <img src={menuOpen} alt="Hamburger Menu" className="nav-mobile-open"/>
-        <ul className="nav-menu">
-            <img src={menuClose} alt="Close Hamburger Menu" className="nav-mobile-close" />
+        <img src={menuOpen} onClick={openMenu} alt="Hamburger Menu" className="nav-mobile-open"/>
+        <ul ref={menuRef} className="nav-menu">
+            <img src={menuClose} onClick={closeMenu} alt="Close Hamburger Menu" className="nav-mobile-close" />
             <li>
                 <Link to="home" smooth={true} duration={500}>Home</Link>
             </li>
