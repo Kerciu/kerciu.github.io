@@ -53,3 +53,9 @@
         transform: translateX(calc(-50% - 30px))
     }
 }
+
+@media (max-width: 768px) {
+    .marquee-container {
+        width: 100%;
+    }
+}

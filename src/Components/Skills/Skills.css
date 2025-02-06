@@ -31,3 +31,30 @@
     justify-content: center;
     overflow: hidden;
 }
+
+@media (max-width: 768px) {
+    .skills-container {
+        gap: 80px;
+        margin: 50px 0;
+        align-items: start;
+    }
+
+    .skills-title {
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .skills-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .skills-title img {
+        width: 130px;
+        right: -20px;
+    }
+
+    .skills {
+        margin-top: 0;
+    }
+}

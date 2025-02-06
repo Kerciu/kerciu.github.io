@@ -91,3 +91,29 @@
 .show-more-btn:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .portfolio-container {
+        gap: 30px;
+        margin: 30px 5vw;
+        align-items: start;
+    }
+
+    .portfolio-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .portfolio-title img {
+        width: 130px;
+        right: -20px;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .project-format {
+        padding: 20px;
+    }
+}
