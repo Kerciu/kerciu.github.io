@@ -58,9 +58,13 @@
 
 @media (max-width: 768px) {
     .about-container {
-        gap: 80px;
-        margin: 50px 70px;
+        gap: 20px;
+        margin: 20px 50px;
         align-items: start;
+    }
+
+    .about-title {
+        margin-bottom: 0;
     }
 
     .about-title h1 {
@@ -75,6 +79,7 @@
 
     .about {
         flex-direction: column;
+        margin-top: 0;
     }
 
     .about-left {
@@ -84,5 +89,6 @@
     .about-paragraph {
         font-size: 18px;
         line-height: 32px;
+        text-align: center;
     }
 }

@@ -1,15 +1,15 @@
 const projectInfo = [
     {
         pNum: "01",
-        pName: "Sqlite Clone",
-        pDesc: "A lightweight database system built from scratch in C. This project demonstrates essential database operations and low-level memory management.",
-        pLink: "https://github.com/Kerciu/sqlite-clone"
+        pName: "Flashcard Web Application",
+        pDesc: "University group project utilizing React for frontend, Spring Boot for backend and Docker for containerization.",
+        pLink: "https://github.com/Kerciu/flashcard-webapp"
     },
     {
         pNum: "02",
-        pName: "Expense Tracker",
-        pDesc: "A desktop app built in Java using Swing and MySQL for personal finance management. It integrates a database to track and manage expenses.",
-        pLink: "https://github.com/Kerciu/expense-tracker-java"
+        pName: "Sqlite Clone",
+        pDesc: "A lightweight database system built from scratch in C. This project demonstrates essential database operations and low-level memory management.",
+        pLink: "https://github.com/Kerciu/sqlite-clone"
     },
     {
         pNum: "03",
@@ -31,10 +31,10 @@ const projectInfo = [
     },
     {
         pNum: "06",
-        pName: "Desktop Weather App",
-        pDesc: "A weather application built in Java using Swing. The app retrieves real-time weather data via API integration and presents it through an interactive graphical interface.",
-        pLink: "https://github.com/Kerciu/weather-app-java"
-    },
+        pName: "Expense Tracker",
+        pDesc: "A desktop app built in Java using Swing and MySQL for personal finance management. It integrates a database to track and manage expenses.",
+        pLink: "https://github.com/Kerciu/expense-tracker-java"
+    }
 ];
 
 export default projectInfo;

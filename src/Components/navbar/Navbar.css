@@ -82,6 +82,11 @@
         display: none;
     }
 
+    .nav-logo {
+        margin-left: -50px;
+        margin-bottom: 0;
+    }
+
     .nav-mobile-open {
         display: block;
         position: fixed;

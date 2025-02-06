@@ -80,6 +80,9 @@
 }
 
 @media (max-width: 768px) {
+    .hero {
+        margin-top: 0;
+    }
     .hero img {
         margin-top: 70px;
         width: 260px;

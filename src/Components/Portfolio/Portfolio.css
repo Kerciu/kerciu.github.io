@@ -70,13 +70,6 @@
     margin-top: 20px;
 }
 
-.project-format:hover {
-    border: 2px solid #BB86FC;
-    background-image: linear-gradient(267deg, #352649 0.36%, #004e46 102.06%);
-    transform: scale(1.05);
-    transition: 0.4s;
-}
-
 .show-more-btn {
     border: 2px solid white;
     font-size: 28px;
@@ -92,10 +85,19 @@
     transform: scale(1.05);
 }
 
+@media (min-width: 768px) {
+    .project-format:hover {
+        border: 2px solid #BB86FC;
+        background-image: linear-gradient(267deg, #352649 0.36%, #004e46 102.06%);
+        transform: scale(1.05);
+        transition: 0.4s;
+    }
+}
+
 @media (max-width: 768px) {
     .portfolio-container {
         gap: 30px;
-        margin: 30px 5vw;
+        margin: 30px 50px;
         align-items: start;
     }
 
@@ -115,5 +117,9 @@
 
     .project-format {
         padding: 20px;
+    }
+
+    .show-more-btn {
+        margin-left: 45px;
     }
 }
