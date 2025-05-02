@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css';
 
-import profileImage from '../../assets/my-image.jpg'
+import profileImage from '../../assets/less-professional.jpg'
 import aboutInfo from "../../assets/info/aboutInfo";
 import themePattern from "../../assets/theme_pattern.svg";
 
