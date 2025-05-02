@@ -1,9 +1,9 @@
 const aboutInfo = {
-    firstPara: `Passionate about the <span class="highlight">IT industry</span>, I'm on a quest for continuous learning and growth. Currently pursuing my degree at <span class="highlight">Warsaw University of Technology</span>, I thrive on exploring new technologies and gaining hands-on experience.`,
+    firstPara: `I'm a Computer Science student at <span class="highlight">Warsaw University of Technology</span> with a deep passion for the <span class="highlight">IT industry</span>. I love building things, learning new technologies, and improving every day.`,
 
-    secondPara: `I firmly believe in <span class="highlight">lifelong learning</span>, embracing opportunities both in university and through independent study. Whether it's new <span class="highlight">programming languages</span> or <span class="highlight">software engineering</span> developments, I'm always eager to expand my expertise.`,
+    secondPara: `Whether it's mastering new <span class="highlight">languages</span> or diving into <span class="highlight">software engineering</span> topics, I'm all about <span class="highlight">lifelong learning</span> - both at university and on my own.`,
 
-    thirdPara: `I'm fluent in <span class="highlight">English</span>, with intermediate <span class="highlight">Japanese</span>, communicative <span class="highlight">German</span>, and basic <span class="highlight">French</span> skills. I also prioritize physical fitness, regularly hitting the gym to maintain balance.`
-}
+    thirdPara: `I speak fluent <span class="highlight">English</span>, some <span class="highlight">Japanese</span>, <span class="highlight">German</span>, and <span class="highlight">French</span>. Outside tech, I stay active by hitting the gym regularly to keep my mind and body sharp.`
+  }
 
-export default aboutInfo;
+  export default aboutInfo;

@@ -7,27 +7,27 @@ const projectInfo = [
     },
     {
         pNum: "02",
-        pName: "Sqlite Clone",
-        pDesc: "A lightweight database system built from scratch in C. This project demonstrates essential database operations and low-level memory management.",
-        pLink: "https://github.com/Kerciu/sqlite-clone"
+        pName: "Goodreads Clone",
+        pDesc: "Full-stack web app built with Django, Rust, and PostgreSQL. Includes user authentication, book search, rating system & other special stuff.",
+        pLink: "https://github.com/Kerciu/book-management-app"
     },
     {
         pNum: "03",
+        pName: "CSV Translation Tool",
+        pDesc: "Semi-automatic translation tool full-stack web app with CSV parsing and ML-based translation. Built with TypeScript, Django, MongoDB, and Rust.",
+        pLink: "https://github.com/Kerciu/csv-translation-tool"
+    },
+    {
+        pNum: "04",
         pName: "Tetris Clone",
         pDesc: "A clone of the classic Tetris game built in C++ using the SFML library. This project focuses on game development, user interface design, and game mechanics.",
         pLink: "https://github.com/Kerciu/cpp-tetris-clone"
     },
     {
-        pNum: "04",
+        pNum: "05",
         pName: "Mandelbrot Set Generator",
         pDesc: "Hybrid program combining x64 Assembly and C to visualize the Mandelbrot set. It highlights the power of low-level programming and graphical output using SDL2.",
         pLink: "https://github.com/Kerciu/mandelbrot-set-x64-c"
-    },
-    {
-        pNum: "05",
-        pName: "End-to-End Login Verification",
-        pDesc: "A web app featuring end-to-end login and email verification using Spring Boot. It showcases integration with email services and secure authentication.",
-        pLink: "https://github.com/Kerciu/e2e-login-verification"
     },
     {
         pNum: "06",
